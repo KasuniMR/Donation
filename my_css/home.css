@@ -1,0 +1,56 @@
+﻿ section {
+        padding: 50px 0;
+        background-color: #f9f9f9;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        font-weight: 700;
+        color: #333;
+    }
+
+    p {
+        color: #666;
+        margin-bottom: 20px;
+    }
+
+    .text-justify {
+        text-align: justify;
+    }
+
+    .feature-icon {
+        transition: transform 0.3s ease-in-out;
+        margin-bottom: 20px;
+    }
+
+    .feature-icon:hover {
+        transform: scale(1.1);
+    }
+
+    .img-fluid {
+        margin: 0 auto 30px;
+    }
+
+    /* Button style for section */
+    .btn-learn-more {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 30px;
+        text-transform: uppercase;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .btn-learn-more:hover {
+        background-color: #0056b3;
+    }
+
+    /* Spacing and alignment improvements */
+    .row {
+        margin-bottom: 30px;
+    }
+
+    section:nth-of-type(odd) {
+        background-color: #ffffff;
+    }

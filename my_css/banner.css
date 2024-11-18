@@ -1,0 +1,113 @@
+﻿/* General section layout */
+section.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Banner container */
+.banner {
+  position: relative;
+  width: 80%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: all 1.5s ease-in-out;
+}
+
+.banner:hover {
+  transform: scale(1);
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  filter: brightness(60%); /* Darkened the image for better text visibility */
+  transition: filter 1s ease;
+}
+
+.banner:hover img {
+  filter: brightness(80%);
+}
+
+/* Banner content styling */
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Lighter background for better text visibility */
+  padding: 40px;
+  border-radius: 20px;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.banner.visible .banner-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.banner-title {
+  font-size: 48px; /* Increased font size for a more prominent display */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background: linear-gradient(90deg, #ffcc33, #ff6699); /* Lighter gradient for modern look */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: slideIn 1s ease forwards;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7); /* Added stronger shadow for clearer text */
+}
+
+.banner-text {
+  font-size: 22px; /* Increased size for better readability */
+  color: white; /* Lighter text color */
+  margin-top: 15px;
+  animation: fadeIn 1.5s ease forwards;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Shadow to make the text stand out */
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Parallax scrolling effect for the background */
+.banner-1 {
+  background: linear-gradient(135deg, rgba(255, 140, 140, 0.8), rgba(255, 220, 120, 0.8)); /* Brighter colors for banner-1 */
+}
+
+.banner-2 {
+  background: linear-gradient(135deg, rgba(100, 255, 255, 0.8), rgba(100, 150, 255, 0.8)); /* Brighter colors for banner-2 */
+}
+
+.banner-3 {
+  background: linear-gradient(135deg, rgba(255, 100, 255, 0.8), rgba(150, 100, 255, 0.8)); /* Brighter colors for banner-3 */
+}
+
+.banner:hover .banner-content {
+  background-color: rgba(0, 0, 0, 0.6); /* Slightly darker overlay on hover for better text contrast */
+}
