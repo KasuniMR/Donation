@@ -1,0 +1,141 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="final_project.Site1" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>WE CARE</title>
+
+    <%-- Bootstrap CSS  --%>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <%-- DataTable CSS --%>
+    <link href="Data_table/css/dataTables.dataTables.min.css" rel="stylesheet" />
+
+    <%-- FontAwesome CSS --%>
+    <link href="font/css/all.css" rel="stylesheet" />
+
+    <%-- my CSS --%>
+    <link href="my_css/footer.css" rel="stylesheet" />
+    <link href="my_css/home.css" rel="stylesheet" />
+    <link href="my_css/banner.css" rel="stylesheet" />
+    <script src="my_css/banner.js"></script>
+    <%--my css part 2--%>
+    
+
+
+
+    <%--cnd link--%>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <!-- navigation bar eka -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/icons8-library-50.png" width="30" height="30" alt="Donation site" />
+                WE CARE DONATION
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home_page.aspx">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="user_sign_up.aspx">Sign-Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="user_logging.aspx">Log-In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reg_log.aspx">Register</a>
+                    </li>
+                       <li class="nav-item">
+                        <a class="nav-link" href="admin_log.aspx">Administrator</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- body eka -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- Foter eka -->
+     <!-- Updated Footer Section -->
+<footer class="footer bg-dark text-white py-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- About Us Column -->
+            <div class="col-md-4">
+                <h5>About Us</h5>
+                <p>We are a donation platform committed to helping those in need. Your support makes a difference.</p>
+            </div>
+            <!-- Quick Links Column -->
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><asp:LinkButton ID="LinkButton1" runat="server" CssClass="footer-link" OnClick="LinkButton1_Click1">Privacy Policy</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton2" runat="server" CssClass="footer-link">Terms of Service</asp:LinkButton></li>
+                    <li><asp:LinkButton ID="LinkButton3" runat="server" CssClass="footer-link">Contact Us</asp:LinkButton></li>
+                </ul>
+            </div>
+            <!-- Follow Us Column -->
+            <div class="col-md-4 text-center">
+                <h5>Follow Us</h5>
+                <a href="#" class="text-white mr-3"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-white mr-3"><i class="fab fa-linkedin fa-lg"></i></a>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col text-center">
+                <p>&copy; 2024 WE CARE DONATION | All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Additional CSS -->
+<style>
+    .footer {
+        background-color: #343a40; /* Dark background for contrast */
+        color: #fff;
+        padding: 20px 0;
+    }
+    .footer h5 {
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    .footer-link {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+    .footer-link:hover {
+        color: #f1c40f; /* Highlight on hover */
+    }
+    .fab {
+        transition: color 0.3s ease-in-out;
+    }
+    .fab:hover {
+        color: #f1c40f;
+    }
+</style>
+
+    </form>
+
+  
+</body>
+</html>
