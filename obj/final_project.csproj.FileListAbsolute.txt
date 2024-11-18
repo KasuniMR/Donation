@@ -1,0 +1,66 @@
+D:\SOC\project\final_project\final_project\bin\ApplicationInsights.config
+D:\SOC\project\final_project\final_project\bin\roslyn\csc.exe
+D:\SOC\project\final_project\final_project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\SOC\project\final_project\final_project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\SOC\project\final_project\final_project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\SOC\project\final_project\final_project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\SOC\project\final_project\final_project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\SOC\project\final_project\final_project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\SOC\project\final_project\final_project\bin\roslyn\System.Collections.Immutable.dll
+D:\SOC\project\final_project\final_project\bin\roslyn\System.Reflection.Metadata.dll
+D:\SOC\project\final_project\final_project\bin\roslyn\vbc.exe
+D:\SOC\project\final_project\final_project\bin\roslyn\VBCSCompiler.exe
+D:\SOC\project\final_project\final_project\bin\roslyn\VBCSCompiler.exe.config
+D:\SOC\project\final_project\final_project\bin\final_project.dll.config
+D:\SOC\project\final_project\final_project\bin\final_project.dll
+D:\SOC\project\final_project\final_project\bin\final_project.pdb
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.DependencyCollector.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.Web.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.WindowsServer.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.ApplicationInsights.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.DependencyCollector.xml
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.Web.xml
+D:\SOC\project\final_project\final_project\bin\Microsoft.AI.WindowsServer.xml
+D:\SOC\project\final_project\final_project\bin\Microsoft.ApplicationInsights.xml
+D:\SOC\project\final_project\final_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\SOC\project\final_project\final_project\obj\Debug\final_project.csprojResolveAssemblyReference.cache
+D:\SOC\project\final_project\final_project\obj\Debug\final_project.dll
+D:\SOC\project\final_project\final_project\obj\Debug\final_project.pdb
+D:\New folder\final_project\final_project\bin\ApplicationInsights.config
+D:\New folder\final_project\final_project\bin\roslyn\csc.exe
+D:\New folder\final_project\final_project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder\final_project\final_project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\final_project\final_project\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder\final_project\final_project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder\final_project\final_project\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder\final_project\final_project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder\final_project\final_project\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder\final_project\final_project\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder\final_project\final_project\bin\roslyn\vbc.exe
+D:\New folder\final_project\final_project\bin\roslyn\VBCSCompiler.exe
+D:\New folder\final_project\final_project\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder\final_project\final_project\bin\final_project.dll.config
+D:\New folder\final_project\final_project\bin\final_project.dll
+D:\New folder\final_project\final_project\bin\final_project.pdb
+D:\New folder\final_project\final_project\bin\Microsoft.AI.Agent.Intercept.dll
+D:\New folder\final_project\final_project\bin\Microsoft.AI.DependencyCollector.dll
+D:\New folder\final_project\final_project\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\New folder\final_project\final_project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\New folder\final_project\final_project\bin\Microsoft.AI.Web.dll
+D:\New folder\final_project\final_project\bin\Microsoft.AI.WindowsServer.dll
+D:\New folder\final_project\final_project\bin\Microsoft.ApplicationInsights.dll
+D:\New folder\final_project\final_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder\final_project\final_project\bin\Microsoft.AI.DependencyCollector.xml
+D:\New folder\final_project\final_project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\New folder\final_project\final_project\bin\Microsoft.AI.Web.xml
+D:\New folder\final_project\final_project\bin\Microsoft.AI.WindowsServer.xml
+D:\New folder\final_project\final_project\bin\Microsoft.ApplicationInsights.xml
+D:\New folder\final_project\final_project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder\final_project\final_project\obj\Debug\final_project.csprojResolveAssemblyReference.cache
+D:\New folder\final_project\final_project\obj\Debug\final_project.dll
+D:\New folder\final_project\final_project\obj\Debug\final_project.pdb
